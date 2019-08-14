@@ -46,5 +46,10 @@
 
 .content {
     padding: 20px;
+    display: none;
     font-size: 0.9rem;
+}
+
+.activeContent {
+    display: block;
 }
