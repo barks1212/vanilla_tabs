@@ -35,23 +35,27 @@ body {
     border: none;
 }
 
-.tabButton:active {
-    background-color: white;
-    border-top: 2px solid rgba(192, 192, 192, 1);
-}
-
 .tabButton:hover {
     background-color: white;
-    border-top: 2px solid rgba(192, 192, 192, 1)
 }
 
 .tabButton:not(:last-of-type) {
     border-right: 2px solid white;
 }
 
+@media only screen and (min-width: 800px) {
+    .tabButton {
+        width: 25%;
+    }
+
+    .tabButton:not(:last-of-type) {
+        border-right: 4px solid white;
+    }
+}
+
 .active {
     background: white;
-    border-top: 2px solid rgba(192, 192, 192, 1);
+    border-top: 4px solid rgba(192, 192, 192, 1);
     font-weight: bold;
     font-size: 0.65rem;
 }
