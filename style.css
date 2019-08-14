@@ -1,0 +1,30 @@
+.tabsContainer {
+    width: 75%;
+    margin: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .tabsContainer {
+        margin: 10rem;
+    }
+}
+.tabsNav {
+    display: flex;
+  
+    flex-shrink: 0;
+    height: 60px;
+}
+
+.tabButton {
+    padding: 10px;
+    background: none;
+    background-color: rgba(224, 224, 224, 0.6);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.content {
+    padding: 20px;
+    font-size: 0.9rem;
+}
