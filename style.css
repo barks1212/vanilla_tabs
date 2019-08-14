@@ -1,9 +1,21 @@
+body {
+    font-family: 'Crimson Text', serif;
+    background-color: whitesmoke
+}
+
 .tabsContainer {
     width: 75%;
     margin: 1rem;
+    background-color: white;
 }
 
 @media only screen and (min-width: 600px) {
+    .tabsContainer{
+        margin: 5rem;
+    }
+}
+
+@media only screen and (min-width: 800px) {
     .tabsContainer {
         margin: 10rem;
     }
